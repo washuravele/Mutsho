@@ -1,7 +1,7 @@
 import e from "express";
 import bodyParser from "body-parser";
 import axios from "axios";
-const port = 3000;
+const port = process.env.PORT || 3000;
 const app = e();
 const YOUR_ACCESS_KEY = "a5efca817d6a37dd0ef10096db2900cd";
 
